@@ -169,7 +169,7 @@ export class Helper {
   static showSkelLogo() {
     console.log(`
                                                           
-                      ...                                 
+                  ...                                 
                      .;:.                                 
                     .;ol,.                                
                    .;ooc:'                                
@@ -194,14 +194,14 @@ export class Helper {
          .','.. .lX0doooodOXd.  .','.                     
                  .,okkddxkd;.                             
                     'oxxd;.                               
-   ........................................                              
-   .OWo  xNd lox  xxl Ald   xoc dakkkkkxsx.              
-   .OWo  o0W cXW  dM0 MMN   lNK laddKMNkso.               
-   .kMKoxsNN oWX  dW0 MMMWO lWK    axM0   .                
-   .OMWXNaMX dM0  kM0 MMKxNXKW0    axMk   .                 
-   .OMk  dWK oWX XWdx Mxx  XMMO    akMx   .                 
-   'OWo  dM0 'kNNXNNd DMD   OWk    aoWd   .                 
-   ........................................                 
+   ...........................................                              
+   .OWo  xNd      loxxol      xxx        xxx . 
+   .OWo  o0W     cXW   WXc      xxx     xxx  .  
+   .kMKoxsNN    dW0xxxxx0wd      xxxxxxxxx   .   
+   .OMWXNaMX    kM0xxxxxx0Mk       xxxxxx    .        
+   .OMk  dWK   XWd       dWX     xxx    xxx  .       
+   'OWo  dM0  'XNN        NNx  xxx        xxx.       
+   ...........................................               
                                                                       
 `);
   }
