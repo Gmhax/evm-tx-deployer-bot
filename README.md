@@ -71,6 +71,10 @@ The Evm Testnet Bot is a powerful tool designed for interacting with EVM-compati
    ```
    npm install
    ```
+   ```
+   git pull
+   ```
+
 3. Run
    ```
    cp -r accounts/accounts_tmp.js accounts/accounts.js && cp -r config/config_tmp.js config/config.js
