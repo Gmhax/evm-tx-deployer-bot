@@ -83,6 +83,47 @@ The Evm Testnet Bot is a powerful tool designed for interacting with EVM-compati
     ```
    nano config/config.js
     ```
+
+## Example Config 
+For refference i will provide my `config.js` file for Story Oddyssey Testnet
+```js
+export class Config {
+  static GWEIPRICE = 25;
+  static WAITFORBLOCKCONFIRMATION = true;
+  static TXAMOUNTMIN = 0.0001;
+  static TXAMOUNTMAX = 0.001;
+
+  static USEWRAPUNWRAP = false;
+  static WRAPUNWRAPCOUNT = 0;
+  static WRAPPEDTOKENCONTRACTADDRESS = undefined;
+
+  static USERAWTXDATA = true;
+  static RAWTXCOUNT = 10;
+  static RAWTX = [
+    "0x773acdef0000000000000000000000000000000000000000000000000000000000000001",
+  ];
+  static RAWTXAMOUNT = 0;
+  static RAWTXCONTRACTADDRESS = "0x2ADb4Da762E8Ad3Ebf050cEe0DaEF23d0f3C1Ed2";
+
+  static USETRANSFER = true;
+  static SELFTRANSFERCOUNT = 10;
+  static OTHERUSERTRANSFERCOUNT = 0;
+  static OTHERUSERADDRESSLIST = ["0xB2D5dF8BDB3230609F58D0A7B5A2f6A0B8eF3d04", ];
+
+  static DEPLOYCONTRACTINTERACTION = true;
+  static DEPLOYCONTRACTINTERACTIONCOUNT = 10;
+  static DEPLOYCONTRACTADDRESS = "0x2ADb4Da762E8Ad3Ebf050cEe0DaEF23d0f3C1Ed2";
+
+  static RPC = {
+    CHAINID: 93384,
+    RPCURL: "https://assam-rpc.tea.xyz", 
+    EXPLORER: "https://assam.tea.xyz",
+    SYMBOL: "$TEA",
+  };
+}
+```
+
+
 6. To run Auto TX
    ```
    npm run start
@@ -171,44 +212,7 @@ export class Config {
 im already provide description for each parameter, hope you can understand.
 
 
-## Example Config 
-For refference i will provide my `config.js` file for Story Oddyssey Testnet
-```js
-export class Config {
-  static GWEIPRICE = 25;
-  static WAITFORBLOCKCONFIRMATION = true;
-  static TXAMOUNTMIN = 0.0001;
-  static TXAMOUNTMAX = 0.001;
 
-  static USEWRAPUNWRAP = false;
-  static WRAPUNWRAPCOUNT = 0;
-  static WRAPPEDTOKENCONTRACTADDRESS = undefined;
-
-  static USERAWTXDATA = true;
-  static RAWTXCOUNT = 10;
-  static RAWTX = [
-    "0x773acdef0000000000000000000000000000000000000000000000000000000000000001",
-  ];
-  static RAWTXAMOUNT = 0;
-  static RAWTXCONTRACTADDRESS = "0x2ADb4Da762E8Ad3Ebf050cEe0DaEF23d0f3C1Ed2";
-
-  static USETRANSFER = true;
-  static SELFTRANSFERCOUNT = 10;
-  static OTHERUSERTRANSFERCOUNT = 0;
-  static OTHERUSERADDRESSLIST = ["0xB2D5dF8BDB3230609F58D0A7B5A2f6A0B8eF3d04", ];
-
-  static DEPLOYCONTRACTINTERACTION = true;
-  static DEPLOYCONTRACTINTERACTIONCOUNT = 10;
-  static DEPLOYCONTRACTADDRESS = "0x2ADb4Da762E8Ad3Ebf050cEe0DaEF23d0f3C1Ed2";
-
-  static RPC = {
-    CHAINID: 93384,
-    RPCURL: "https://assam-rpc.tea.xyz", 
-    EXPLORER: "https://assam.tea.xyz",
-    SYMBOL: "$TEA",
-  };
-}
-```
 Explanation :
 | Parameter                         | Description |
 |------------------------------------|-------------|
