@@ -48,8 +48,7 @@ The Evm Testnet Bot is a powerful tool designed for interacting with EVM-compati
                                               
                                               
 
-Anyway i create new telegram channel just for sharing bot or airdrop, join here
-[**https://t.me/skeldrophunt**](https://t.me/skeldrophunt).
+
 
 
 ## BOT FEATURE
@@ -66,7 +65,7 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
 ### Linux
 1. Clone project repo
    ```
-   git clone https://github.com/Widiskel/evm-tx-deployer-bot.git && cd evm-tx-deployer-bot
+   git clone https://github.com/Gmhax/evm-tx-deployer-bot.git && cd evm-tx-deployer-bot
    ```
 2. Run
    ```
