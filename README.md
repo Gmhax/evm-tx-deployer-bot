@@ -1,28 +1,13 @@
 # EVM TX & DEPLOYER BOT
 The Evm Testnet Bot is a powerful tool designed for interacting with EVM-compatible networks. This bot automates transaction processes, enabling users to perform actions such as ETH to WETH swap interactions seamlessly and daily. Additionally, it provides a built-in smart contract deployment feature, making it an ideal solution for you to do your testnet airdrop.
 
-## Table Of Contents
-- [EVM TX \& DEPLOYER BOT](#evm-tx--deployer-bot)
-  - [Table Of Contents](#table-of-contents)
-  - [Prerequisite](#prerequisite)
-  - [Join My Telegram Channel](#join-my-telegram-channel)
-  - [BOT FEATURE](#bot-feature)
-  - [Setup \& Configure BOT](#setup--configure-bot)
-    - [Linux](#linux)
-    - [Windows](#windows)
-  - [Update Bot](#update-bot)
-  - [IMPORTANT NOTE (READ IT THIS IS NOT DECORATION)](#important-note-read-it-this-is-not-decoration)
-  - [UNDERSTANDING CONFIG](#understanding-config)
-  - [Config Template File](#config-template-file)
-  - [Example Config](#example-config)
-  - [CONTRIBUTE](#contribute)
-  - [SUPPORT](#support)
+
 
 ## Prerequisite
 - Git
 - Node JS (v22)
 
-## Join My Telegram Channel
+
 ```
                                                           
                       ...                                 
@@ -50,14 +35,14 @@ The Evm Testnet Bot is a powerful tool designed for interacting with EVM-compati
          .','.. .lX0doooodOXd.  .','.                     
                  .,okkddxkd;.                             
                     'oxxd;.                               
-   ........................................                              
-   .OWo  xNd lox  xxl Ald   xoc dakkkkkxsx.              
-   .OWo  o0W cXW  dM0 MMN   lNK laddKMNkso.               
-   .kMKoxsNN oWX  dW0 MMMWO lWK    axM0   .                
-   .OMWXNaMX dM0  kM0 MMKxNXKW0    axMk   .                 
-   .OMk  dWK oWX XWdx Mxx  XMMO    akMx   .                 
-   'OWo  dM0 'kNNXNNd DMD   OWk    aoWd   .                 
-   ........................................
+   ...........................................                              
+   .OWo  xNd      loxxol      xxx        xxx . 
+   .OWo  o0W     cXW   WXc      xxx     xxx  .  
+   .kMKoxsNN    dW0xxxxx0wd      xxxxxxxxx   .   
+   .OMWXNaMX    kM0xxxxxx0Mk       xxxxxx    .        
+   .OMk  dWK   XWd       dWX     xxx    xxx  .       
+   'OWo  dM0  'XNN        NNx  xxx        xxx.       
+   ........................................... 
 
 ```           
                                               
@@ -108,34 +93,7 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
     npm run deploy
     ```
    
-### Windows
-1. Open your `Command Prompt` or `Power Shell`.
-2. Clone project repo
-   ```
-   git clone https://github.com/Widiskel/evm-tx-deployer-bot.git
-   ```
-   and cd to project dir
-   ```
-   cd evm-tx-deployer-bot
-   ```
-3. Run 
-   ```
-   npm install
-   ```
-5. Navigate to `evm-tx-deployer-bot` directory. 
-6. Navigate to `accounts` folder and rename `accounts_tmp.js` to `accounts.js`.
-7. Now open `acccounts.js` and setup your accounts. 
-8. Now Back to `evm-tx-deployer-bot` directory and Navigate to `config` and rename `config_tmp.js` to `config.js` adjust the `config.js` as needed.
-9.  Back to `evm-tx-deployer-bot` directory.
-10. To start the app open your `Command Prompt` or `Power Shell`
-11. To run auto Tx Bot
-    ```
-    npm run start
-    ```
-12. To run Smart Contract Deployer
-    ```
-    npm run deploy
-    ```
+
 
 ## Update Bot
 
