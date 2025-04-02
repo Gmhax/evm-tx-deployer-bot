@@ -119,9 +119,9 @@ export class Config {
   static DEPLOYCONTRACTADDRESS = "0x2ADb4Da762E8Ad3Ebf050cEe0DaEF23d0f3C1Ed2";
 
   static RPC = {
-    CHAINID: 93384,
-    RPCURL: "https://assam-rpc.tea.xyz", 
-    EXPLORER: "https://assam.tea.xyz",
+    CHAINID: 10218,
+    RPCURL: "https://tea-sepolia.g.alchemy.com/public", 
+    EXPLORER: "https://sepolia.tea.xyz",
     SYMBOL: "$TEA",
   };
 }
