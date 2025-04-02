@@ -59,6 +59,7 @@ The Evm Testnet Bot is a powerful tool designed for interacting with EVM-compati
 - Auto TX Daily (SELF TRANSFER)
 - Deploy Smart Contract
 
+## First Request faucet: https://faucet-sepolia.tea.xyz/
 
 ## Setup & Configure BOT
 
