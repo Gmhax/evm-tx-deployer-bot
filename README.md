@@ -86,6 +86,7 @@ The Evm Testnet Bot is a powerful tool designed for interacting with EVM-compati
    ```
    nano accounts/accounts.js
    ```
+
 5. Configure the bot config
     ```
    nano config/config.js
@@ -130,39 +131,18 @@ export class Config {
 }
 ```
 
+- Create session:
+   ```
+   screen -S Teaprotocol
+   ```
 
 6. To run Auto TX
    ```
    npm run start
    ```
-7. To run Contract Deployer
-    ```
-    npm run deploy
-    ```
+
    
 
-
-## Update Bot
-
-To update bot follow this step :
-1. run
-   ```
-   git pull
-   ```
-   or
-   ```
-   git pull --rebase
-   ```
-   if error run
-   ```
-   git stash && git pull
-   ```
-2. run
-   ```
-   npm update
-   ```
-3. start the bot
-4. if any eror happen check `log/app.log`
 
 
 ## IMPORTANT NOTE (READ IT THIS IS NOT DECORATION)
