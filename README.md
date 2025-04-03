@@ -47,17 +47,7 @@ The Evm Testnet Bot is a powerful tool designed for interacting with EVM-compati
 ```           
                                               
                                               
-
-
-
-
-## BOT FEATURE
-- Multi Account 
-- Support PK & SEED
-- Auto TX Daily (Wrap Unwrap ETH)
-- Auto TX Daily With RAW TX DATA
-- Auto TX Daily (SELF TRANSFER)
-- Deploy Smart Contract
+## THIS TESTNET ENDS ON APRIL 20.
 
 ## First Request faucet: https://faucet-sepolia.tea.xyz/
 ## Second Begin KYC: https://sepolia.app.tea.xyz/sign-up
@@ -197,4 +187,29 @@ export class Config {
 
 ```
 ## You can also interact with TEA dApps: https://docs.google.com/spreadsheets/d/1qHd473i6cowH8eEImzaPVSKe590rkx6j8mysLRVTReQ/edit?usp=sharing
+
+## DONE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
