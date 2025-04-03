@@ -92,7 +92,7 @@ The Evm Testnet Bot is a powerful tool designed for interacting with EVM-compati
     ```
 
 ## Example Config 
-For refference i will provide my `config.js` file for Story Oddyssey Testnet
+ `config.js` 
 ```js
 export class Config {
   static GWEIPRICE = 25;
@@ -113,7 +113,7 @@ export class Config {
   static RAWTXCONTRACTADDRESS = "0x2ADb4Da762E8Ad3Ebf050cEe0DaEF23d0f3C1Ed2";
 
   static USETRANSFER = true;
-  static SELFTRANSFERCOUNT = 10;
+  static SELFTRANSFERCOUNT = 100;
   static OTHERUSERTRANSFERCOUNT = 0;
   static OTHERUSERADDRESSLIST = ["0xB2D5dF8BDB3230609F58D0A7B5A2f6A0B8eF3d04", ]; //add ka ng more address here mas marami mas maganda
 
@@ -216,50 +216,5 @@ export class Config {
 }
 
 ```
-im already provide description for each parameter, hope you can understand.
+## You can also interact with TEA dApps: https://docs.google.com/spreadsheets/d/1qHd473i6cowH8eEImzaPVSKe590rkx6j8mysLRVTReQ/edit?usp=sharing
 
-
-
-Explanation :
-| Parameter                         | Description |
-|------------------------------------|-------------|
-| **GWEIPRICE**                      | Gas price used for transactions, measured in Eth. Example: `25` it will converted to gwei later. |
-| **WAITFORBLOCKCONFIRMATION**       | Whether to wait for block confirmation after executing a transaction. Example: `true`. |
-| **TXAMOUNTMIN**                     | Minimum transaction amount in ETH. Example: `0.0001`. |
-| **TXAMOUNTMAX**                     | Maximum transaction amount in ETH. Example: `0.001`. |
-| **USEWRAPUNWRAP**                   | Whether to use the wrap/unwrap feature for tokens. Example: `false`. |
-| **WRAPUNWRAPCOUNT**                 | Number of wrap/unwrap operations to perform. Example: `0`. |
-| **WRAPPEDTOKENCONTRACTADDRESS**     | Address of the wrapped token contract. Example: `undefined`. |
-| **USERAWTXDATA**                    | Whether to use raw transaction data. Example: `true`. |
-| **RAWTXCOUNT**                      | Number of raw transactions to send. Example: `10`. |
-| **RAWTX**                            | List of raw transaction data in hex format. Example: `["0x773acdef0000000000000000000000000000000000000000000000000000000000000001"]`. |
-| **RAWTXAMOUNT**                      | Amount to send in raw transactions. Example: `0`. |
-| **RAWTXCONTRACTADDRESS**             | Contract address for raw transactions. Example: `"0x2ADb4Da762E8Ad3Ebf050cEe0DaEF23d0f3C1Ed2"`. |
-| **USETRANSFER**                      | Whether to enable self or other user transfers. Example: `true`. |
-| **SELFTRANSFERCOUNT**                | Number of self-transfers to perform. Example: `10`. |
-| **OTHERUSERTRANSFERCOUNT**           | Number of transfers to other users. Example: `0`. |
-| **OTHERUSERADDRESSLIST**             | List of addresses for transferring funds. Example: `[]` (empty array). |
-| **DEPLOYCONTRACTINTERACTION**        | Whether to interact with a deployed contract. Example: `true`. |
-| **DEPLOYCONTRACTINTERACTIONCOUNT**   | Number of interactions with a deployed contract. Example: `10`. |
-| **DEPLOYCONTRACTADDRESS**            | Address of the deployed contract to interact with. Example: `"0x2ADb4Da762E8Ad3Ebf050cEe0DaEF23d0f3C1Ed2"`. |
-| **RPC.CHAINID**                      | The blockchain network ID. Example: `1516`. |
-| **RPC.RPCURL**                       | The RPC URL used to connect to the blockchain. Example: `"https://odyssey-evm.spidernode.net"`. |
-| **RPC.EXPLORER**                     | Block explorer URL for transaction tracking. Example: `"https://odyssey-testnet-explorer.storyscan.xyz/"`. |
-| **RPC.SYMBOL**                       | The ticker symbol of the blockchain's native currency. Example: `"IP"`. |
-
-what contract address is it ? that is contract address that i've deployed on story chain.
-
-on the deployer contract i create function called ping just for interaction. so you can interact with your own deployed contract on this tool
-
-## CONTRIBUTE
-
-Feel free to fork and contribute adding more feature thanks.
-
-## SUPPORT
-
-want to support me for creating another bot ?
-**star** my repo or buy me a coffee on
-
-EVM : `0x1f0ea6e0b3590e1ab6c12ea0a24d3d0d9bf7707d`
-
-SOLANA : `3tE3Hs7P2wuRyVxyMD7JSf8JTAmEekdNsQWqAnayE1CN`
