@@ -60,6 +60,8 @@ The Evm Testnet Bot is a powerful tool designed for interacting with EVM-compati
 - Deploy Smart Contract
 
 ## First Request faucet: https://faucet-sepolia.tea.xyz/
+## Second Begin KYC: https://sepolia.app.tea.xyz/sign-up
+- Guide: https://tea.xyz/blog/attestation-flow-for-tea-airdrop
 
 ## Setup & Configure BOT
 
